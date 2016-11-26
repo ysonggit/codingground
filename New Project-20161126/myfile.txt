@@ -1,0 +1,5 @@
+USE ams
+set hive.input.format=org.apache.hadoop.hive.ql.io.HiveInputFormat
+set hive.metastore.warehouse.dir=/user/grp_gdoop_audience/ams_hive.db
+set tez.runtime.io.sort.mb=2040
+DROP TABLE ams.jm_control_group_definition_derived
